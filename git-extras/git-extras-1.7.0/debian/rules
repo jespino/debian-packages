@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+override_dh_auto_build:
+	make docs
+
+override_dh_auto_install:
+	make -j1 install DESTDIR=debian/git-extras AM_UPDATE_INFO_DIR= PREFIX=/usr
+
+%:
+	dh $@ 

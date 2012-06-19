@@ -1,0 +1,5 @@
+git-extras (1.7.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #632113)
+
+ -- Jesus Espino <jespinog@gmail.com>  Tue, 19 Jun 2012 13:12:13 +0200
