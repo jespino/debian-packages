@@ -5,22 +5,11 @@ Maintainer: Jesus Espino <jespinog@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), ruby-ronn (>= 0.7.3)
 Standards-Version: 3.9.2
 Homepage: http://github.com/visionmedia/git-extras
-Vcs-Git: git://github.com/visionmedia/git-extras.git
-Vcs-Browser: http://github.com/visionmedia/git-extras
 
 Package: git-extras
 Architecture: all
 Depends: ${misc:Depends}, git (>= 1.7.0)
 Description: Extra commands for git
- Git is popular version control system designed to handle very large
- projects with speed and efficiency; it is used for many high profile
- open source projects, most notably the Linux kernel.
- .
- Git falls in the category of distributed source code management tools.
- Every Git working directory is a full-fledged repository with full
- revision tracking capabilities, not dependent on network access or a
- central server.
- .
- This package provides extra git commands.
-Tags: devel::rcs implemented-in::shell interface::text-mode works-with::file
- works-with::vcs role::program
+ This package provides extra git commands to easy resolve some tipical tasks,
+ like manage remote branches, manage the feature/refactor/bug workflows with
+ branch open, close and delete and some repository stats generators.
