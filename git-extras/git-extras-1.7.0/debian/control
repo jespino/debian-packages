@@ -3,7 +3,7 @@ Section: vcs
 Priority: extra
 Maintainer: Jesus Espino <jespinog@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), ruby-ronn (>= 0.7.3)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://github.com/visionmedia/git-extras
 
 Package: git-extras

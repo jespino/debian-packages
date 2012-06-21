@@ -1,10 +1,6 @@
 Description: Changed sh shebang to bash shebang
  Change in all files the shebang to bash because the scripts have a lot of
  bashisms and probably will not work on dash
- .
- git-extras (1.7.0-1) unstable; urgency=low
- .
-   * Initial release (Closes: #632113)
 Author: Jesus Espino <jespinog@gmail.com>
 Forwarded: no
 

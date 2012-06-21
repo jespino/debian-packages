@@ -1,10 +1,6 @@
 Description: Add shebang to the git-rename-tag
  This patch add the shebang needed to be executed directly to the
  git-rename-tag file.
- .
- git-extras (1.7.0-1) unstable; urgency=low
- .
-   * Initial release (Closes: #632113)
 Author: Jesus Espino <jespinog@gmail.com>
 Forwared: yes
 Applied-Upstream: commit:465eabef9b9ce58d2e88c125178353afdc51084e
