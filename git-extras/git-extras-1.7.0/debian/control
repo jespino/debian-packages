@@ -10,6 +10,6 @@ Package: git-extras
 Architecture: all
 Depends: ${misc:Depends}, git (>= 1.7.0)
 Description: Extra commands for git
- This package provides extra git commands to easy resolve some tipical tasks,
- like manage remote branches, manage the feature/refactor/bug workflows with
- branch open, close and delete and some repository stats generators.
+ This package provides extra git commands to easy resolving of some typical
+ tasks, like manage remote branches, manage the feature/refactor/bug workflows
+ with branch open, close and delete and some repository stats generators.
