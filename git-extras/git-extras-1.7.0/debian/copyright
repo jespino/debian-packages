@@ -1,5 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: git-extras
+Upstream-Contact: TJ Holowaychuk <tj@vision-media.ca>
 Source: http://github.com/visionmedia/git-extras/tarball/1.7.0
 
 Files: *
