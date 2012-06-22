@@ -1,7 +1,7 @@
 Description: Changed sh shebang to bash shebang
  Change in all files the shebang to bash because the scripts have a lot of
  bashisms and probably will not work on dash
-Author: Jesus Espino <jespinog@gmail.com>
+Author: Jesús Espino <jespinog@gmail.com>
 Forwarded: no
 
 --- git-extras-1.7.0.orig/bin/git-delete-submodule
